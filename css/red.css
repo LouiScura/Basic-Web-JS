@@ -1,0 +1,36 @@
+body{
+	background: url("../img/rojo.jpg");
+	background-attachment: fixed;
+}
+
+.main-header .titulo-principal{
+	background: #A82400;
+}
+
+.menu-principal ul li:hover{
+	background: #CA3413;
+}
+
+#contenido #posts #button,
+#contenido aside #button{
+    background: #A82400;                                
+}
+
+footer{
+    background: #A82400;     
+}
+
+.button-more{
+	background: #CA3413;
+}
+#contenido #accordion h3{
+	background: #CA3413;	
+	border-bottom: 1px solid #000000;
+	color: #fff;
+	border-radius: 5px;
+	margin-bottom: 10px;
+
+}
+#contenido #accordion div{
+	margin: 20px;
+}

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+    <meta charset="UTF-8">
+    <title>Proyecto con javaScript</title>
+    <head>
+        <!--Estilos Css-->
+        <link rel="stylesheet" href="css/style.css"/>
+        <link id="theme" rel="stylesheet" type="text/css" href="css/green.css" />
+
+
+        <!---jQuery-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+        <!--Slider?-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+        <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+        <!--Moment?-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/locale/es.js"></script>
+
+        <!--Mi Script-->
+        <script type="text/javascript" src="js/main.js"></script>
+    </head>
+    <body>
+        <div class=cambiarTema>
+            <button id="rojo" style="margin-bottom: 10px"></button>
+            <button id="verde" style="margin-bottom: 10px"></button>
+            <button id="azul" style="margin-bottom: 10px"></button>
+        </div>
+
+        <section class="global">
+            <!--Cabecera-->
+            <header class="main-header">
+                <div class="titulo-principal">
+                    <h1>Proyecto JS</h1>
+                </div>
+                <div class="clearfix"></div>
+                <!--
+                    <div class="buscador">
+                        <input type="search" value="¿Que deseas buscar?"/>
+                        <button type="submit">Buscar</button>
+                    </div>
+                --> 
+                <nav class="menu-principal">
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="about.html">Sobre mi</a></li>
+                        <li><a href="reloj.html">Reloj</a></li>
+                         <!--<li><a href="#">Juego Chapuza</a></li>  --> 
+                        <li><a href="contacto.html">Contacto</a></li>
+                    </ul>
+                </nav>
+            </header>
+
+            <!--Slider-->
+            <div class="bxslider">
+                <div><img src="img/cielo.jpg" title="Cielo"></div>
+                <div><img src="img/hojas.jpg" title="Hojas"></div>
+                <div><img class="red" src="img/rojo.jpg" title="Rojo"></div>
+            </div>
+            
+
+            <!--Contenido-->
+            <section id="contenido">
+
+                <div id="posts">
+                    <!--cargar los posts desde json-->
+                </div>
+                
+                <aside>
+                    <div class="about">
+                        <h4><span>¿Quien soy?</span></h4>
+                        <img src="img/caracol.jpg"/>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry.</p>
+                    </div>
+                    <div id="login">
+                        <form>
+                            <h4><span>Identificate</span></h4>
+                                <form>
+                                    <label for="nombre">Nombre</label><br/>
+                                    <input type="text" name="nombre"/><br/>
+
+                                    <label for="correo">Correo</label><br/>
+                                    <input type="text" name="correo"/><br/>
+
+                                    <label for="contrasena">Contrasena</label><br/>
+                                    <input type="text" name="contrasena"/><br/>
+
+                                    <input id="button" type="submit" value="Enviar"/>
+                                </form>
+                        </form>
+
+                        <form id="registracion" action="#">
+                            <h4><span>Registrate</span></h4>
+                            <div class="exito"></div>
+                                <form>
+                                    <div class="error"></div>
+                                    <label for="nombre">Nombre</label><br/>
+                                    <input type="text" id="nombreRegis" name="nombre"/><br/>
+
+                                    <div class="error"></div>
+                                    <label for="Apellido">Apellido</label><br/>
+                                    <input type="text" id="apellidoRegis" name="Apellido"/><br/>
+
+                                    <div class="error"></div>
+                                    <label for="phone">Numero de telefono</label><br/>
+                                    <input type="number" id="phone" name="phone"/><br/>
+
+                                    <div class="error"></div>
+                                    <label for="correo">Correo</label><br/>
+                                    <input type="text" id="correoRegis" name="correo"/><br/>
+
+                                    <div class="error"></div>
+                                    <label for="contrasena">Contrasena</label><br/>
+                                    <input type="password" id="contrasenaRegis" name="contrasena"/><br/>
+
+                                    <input id="buttonRegis" type="submit" value="Registrarse"/>
+                                </form>
+                        </form>
+                    </div>
+                </aside>
+                <div class="clearfix"></div>
+            </section>
+
+
+            <footer>
+                <p>Pagina realiza por Luis Scura 2019 &copy;</p>
+
+                <a href="#" class="subir">Ir arriba</a>
+            </footer>
+        </section>
+
+    </body>
+</html>

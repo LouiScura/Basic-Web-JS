@@ -1,0 +1,32 @@
+body{
+	background: url("../img/cielo.jpg");
+	background-attachment: fixed;
+}
+
+.main-header .titulo-principal{
+	background: #2960B6;
+}
+
+.menu-principal ul li:hover{
+	background: #2960B6; 
+}
+
+#contenido #posts #button,
+#contenido aside #button{
+    background: #2960B6;                                
+}
+
+footer{
+    background: #2960B6;     
+}
+#contenido #accordion h3{
+    background: #2960B6;     
+	border-bottom: 1px solid #000000;
+	color: #fff;
+	border-radius: 5px;
+	margin-bottom: 10px;
+
+}
+#contenido #accordion div{
+	margin: 20px;
+}

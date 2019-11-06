@@ -1,0 +1,288 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+img{
+}
+
+.clearfix{
+	float: none;
+	clear: both;
+}
+
+.global{
+    position: absolute;
+    width: 65%;
+    margin-left: 17.5%;
+    margin-right: 17.5%;
+    background: #Fff;
+    padding:25px;
+    margin-top: 30px;
+    box-shadow: 0px 0px 2px gray;
+}
+/* HEADER */
+.main-header{
+    background: #fff;
+}
+.main-header .titulo-principal{
+    font-size: 28px;
+    text-shadow: 4px 6px #000;
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    background: #016A4E;
+    height: 55px;
+    color: #fff;
+    font-family: Verdana;
+    letter-spacing: 4px;
+    width: 385px;
+    float: left;
+}
+.clearfix{
+    float: none;
+    clear: both;
+}
+.main-header .menu-principal ul{
+    margin: 0;
+    list-style:none;
+    padding: 0px;
+    display: flex;/*permite q los li sean cajan flexibles y se ponene en una linea*/
+    background: #000;
+    margin-top: 20px;
+    text-align: center;
+}
+.main-header .menu-principal li{
+    flex-grow: 1;/*distribuye el tamano dentro del ul*/
+    border-right: 1px solid #fff;
+}
+.main-header .menu-principal li a{
+    display: block; /*para poder darle padding*/
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+}
+.main-header .menu-principal .li a:hover{
+    background: #fff
+}
+/* SLIDER */
+.bx-wrapper{
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+.bx-wrapper, .bx-viewport {
+	height: 250px !important;
+}
+
+/* POSTS */
+#contenido #posts{
+    width: 62%;
+    float: left;
+    clear: left;
+    margin-top: 0px;
+}
+#contenido #posts h2{
+    font-family: Verdana;
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+#contenido #posts span{
+    color: #cccccc;
+    margin-bottom: 10px;
+}
+#contenido #posts p{
+    margin-top: 5px;
+    letter-spacing: 1px;
+    font-family: Verdana;
+    color: rgba(0, 0, 0, 1);
+    text-align: start;
+}
+#contenido #posts #button{
+    margin-top: 10px;
+    padding: 10px;
+    background: #016A4E;
+    color: white;
+    border: none;
+    font-weight: bold;
+    font-family: Verdana;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+/* ASIDE */
+#contenido aside{
+    width: 31%;
+    float: right;
+    clear: right;
+    margin-bottom: 0px;
+    margin-top: 65px;
+    text-align: center;
+}
+#contenido aside .about h4{
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    line-height: 10px;
+    background: url("../img/lines.png") repeat-x;
+    font-size: 18px;
+}
+#contenido aside .about span{
+    background: #fff;
+    margin: 10px;
+
+}
+#contenido aside .about{
+    margin-top: 5px;
+    text-align: center;
+}
+#contenido img{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 250px;
+    height: 200px;
+    
+}
+#contenido aside .about p{
+    text-align: center;
+    margin-bottom: 10px;
+    letter-spacing: 0.5px;
+    font-weight: 400;
+}
+/* LOGIN */
+#contenido aside #login h4{
+    margin-bottom: 10px;
+    background: url("../img/lines.png") repeat-x;
+    line-height: 10px;
+    letter-spacing: 0.5px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    font-size: 18px;
+    margin-top: 25px;
+}
+#contenido aside span{
+    margin-top: 15px;
+}
+#contenido aside #login span{
+    background: #fff;
+    margin-top: 15px;
+}
+form input[type="text"],
+form input[type="password"],
+form input[type="number"]{
+    width: 100%;
+    margin-bottom: 10px;
+    border: 1px solid #000;
+}
+form input[type="submit"]{
+    padding: 5px;
+    background: #016A4E;
+    color: white;
+    border: none;
+    font-weight: bold;
+    font-family: Verdana;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+footer{
+    background: #016A4E;
+    height: 30px;
+    color: white;
+    text-align: center;
+    
+}
+footer p{
+    padding-top: 5px;
+    font-weight: bold;
+    float: left;
+    margin-left: 5px;
+}
+footer a{
+    float: right;
+    display: block;
+    text-align: center;
+    padding-top:5px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+    margin-right: 5px;
+}
+/*CAMBIADOR DE TEMAS*/
+.cambiarTema{
+    margin-right: 40px;
+    margin-left: 40px;
+    margin-top: 20%;
+    position: absolute;
+    display: inline-grid;
+}
+#rojo,
+#verde,
+#azul{
+    width: 30px;
+    height: 30px;
+    background: none;
+    border: 3px solid #fff;
+}
+#rojo{
+    background: #A82400;
+}
+#verde{
+    background: #016A4E;
+
+}
+#azul{
+    background: #2960B6;
+}
+/* Acordeon */
+#contenido{
+
+}
+#accordion{
+    padding: 30px;
+    font-size: 23px;
+    text-align: center;
+    cursor: pointer;
+}
+/* Seccion Reloj */
+#contenido{
+    text-align: center;
+}
+#contenido h4{
+    text-align: center;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 10px;
+    background: #000;
+    color: #fff;
+    width: 50%;
+    margin-left: 250px;
+    margin-bottom: 20px;
+}
+#contenido #txt{
+    background: aqua;
+    width: 50%;
+    padding: 20px;
+    margin-left: 230px;
+    font-size: 35px;
+    border: 2px solid red;
+}
+/* CONTACTO */
+#contenido .caja_form{
+    margin-top: 10px;
+    text-align: center;
+}
+#contenido .caja_form h2{
+    margin-bottom: 10px;
+}
+#contendio .caja_form p{
+    margin-bottom: 10px;
+}
+#contenido .caja_form a{
+    display: block;
+    cursor: pointer;
+    font-size: 20px;
+    margin-top: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: monospace;
+
+}
